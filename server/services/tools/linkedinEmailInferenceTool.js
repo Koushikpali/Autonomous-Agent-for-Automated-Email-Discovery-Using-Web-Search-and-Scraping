@@ -117,7 +117,7 @@ export default async function linkedinInferenceRun({ url }) {
   console.log("\n================ MAIN START ================");
 
   const LINKEDIN_EMAIL = "palikoushikg@gmail.com";
-  const LINKEDIN_PASSWORD = "9425872154";
+  const LINKEDIN_PASSWORD = "";
 
   const browser = await puppeteer.launch({
     headless: false,
