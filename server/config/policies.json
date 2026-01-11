@@ -1,0 +1,10 @@
+{
+  "domain_allow": ["example.com", "careers.example.com"],
+  "domain_deny": ["badsite.com", "malicious.example"],
+  "respect_robots": true,
+  "pii_limits": {
+    "allow_emails": true,
+    "allow_forms": true,
+    "allow_phone_numbers": false
+  }
+}

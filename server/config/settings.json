@@ -1,0 +1,15 @@
+{
+  "mongo_uri": "mongodb://127.0.0.1:27017/mern-agent",
+  "port": 4000,
+  "timeouts": {
+    "llm_timeout_ms": 20000,
+    "tool_timeout_ms": 10000
+  },
+  "budgets": {
+    "max_steps": 15
+  },
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model": "llama3.2"
+  }
+}
